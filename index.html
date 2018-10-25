@@ -8,6 +8,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
 	<style>
 		
+		
+		body {
+			margin: 0;
+		}
 	#bandName {
 	font-family: 'BebasNeueRegular';
 	color: transparent;
@@ -76,7 +80,14 @@
 			line-height: 20px;
 		}
 
-
+		.hero {
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+   			justify-content: center;
+    		align-items: center;
+		}
 	</style>
 </head>
 
@@ -86,7 +97,7 @@
   		<source src="C:\Users\Sinai\Documents\atlas lab website\bneh.mp4" type="video/mp4">
   		Your browser does not support HTML5 video.
 	</video>
-	
+<div class="hero">	
 	<h1 id="bandName">Atlas Lab</h1>
 		<nav id="mainNav">
 			<a href="#">About</a>
@@ -94,7 +105,7 @@
 			<a href="#">Tour</a>
 			<a href="#">Contact</a>
 		</nav>
-
+</div>
 	
 </body>
 </html>
